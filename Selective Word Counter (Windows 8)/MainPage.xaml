@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Selective_Word_Counter__Windows_8_.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Selective_Word_Counter__Windows_8_"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Teal">
+        <Button Content="Count" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Bottom" Click="Button_Click_1" Height="38"/>
+        <TextBlock x:Name="lblCount" HorizontalAlignment="Left" Margin="10,0,0,36" TextWrapping="Wrap" Text="Word Count: 0 words" FontFamily="Calibri" FontSize="18" Height="24" VerticalAlignment="Bottom"/>
+        <RichEditBox x:Name="rtbMain" Margin="0,46,0,65" FontFamily="Calibri" FontSize="21.333"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Magic Word Counter" VerticalAlignment="Top" Height="67" Width="455" FontFamily="Global User Interface" FontSize="36"/>
+
+    </Grid>
+    <Page.BottomAppBar>
+        <AppBar>
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource AboutAppBarButtonStyle}" Click="GoToAbout"/>
+
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
