@@ -89,7 +89,7 @@
   <ItemGroup>
     <Reference Include="CryptoLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\mlawc\CryptoLibrary.dll</HintPath>
+      <HintPath>.\CryptoLibrary.dll</HintPath>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.13.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\packages\DocumentFormat.OpenXml.2.13.0\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
@@ -97,7 +97,7 @@
     </Reference>
     <Reference Include="Encrypted Text Format, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\mlawc\Encrypted Text Format.dll</HintPath>
+      <HintPath>.\Encrypted Text Format.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
